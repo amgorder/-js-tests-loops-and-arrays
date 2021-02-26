@@ -6,7 +6,9 @@
 // 1*2*3*4 = 24
 
 function factorials(num) {
-
+for(i=1; i<=num; i++){
+    console.log(i,num)
+}
 }
 
 // ------------------------------------------
@@ -17,7 +19,8 @@ function factorials(num) {
 // output: 20
 
 function rangeTotal(n1, n2) {
-
+for(num2 = 0, num = n1; n1 <= n2; n1++ || num + num2)
+console.log(num)
 }
 
 // ------------------------------------------
